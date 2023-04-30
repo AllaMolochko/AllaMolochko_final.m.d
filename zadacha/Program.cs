@@ -15,10 +15,10 @@ void SecondArrayWithIF(string[] array1, string[] array2)
     for (int i = 0; i < array1.Length; i++)
     {
     if(array1[i].Length <= 3)
-        {
-        array2[count] = array1[i];
-        count++;
-        }
+      {
+      array2[count] = array1[i];
+      count++;
+      }
     }
 }
 void PrintArray(string[] array)
